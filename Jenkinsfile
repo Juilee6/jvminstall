@@ -1,7 +1,3 @@
-npm install -g jenkins-cli-node
-
-
-
 pipeline {
     agent any
 
@@ -11,3 +7,5 @@ pipeline {
                 sh 'npm install -g jenkins-cli-node'
             }
         }
+    }
+}
